@@ -1,0 +1,37 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-about-app-item/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-about-app-item {
+  padding: 2px;
+}
+
+.about-app-item__list {
+  margin-bottom: 30px;
+  width: calc(50% - 30px);
+}
+.about-app-item__list .icon-wrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-app-item__list--heading {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.about-app-item__list--caption {
+  font-weight: 400;
+  font-size: 16px;
+  color: #637381;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

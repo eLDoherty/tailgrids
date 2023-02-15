@@ -1,0 +1,26 @@
+{
+	"name": "tailgrids",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@types/wordpress__block-editor": "^11.0.1",
+		"@types/wordpress__components": "^23.0.1",
+		"@wordpress/scripts": "^25.3.0"
+	},
+	"dependencies": {
+		"@10up/block-components": "^1.14.5",
+		"swiper": "^9.0.4"
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/tailgrids-discover",
+  "version": "0.1.0",
+  "title": "Tailgrids Discover",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "imageId": {
+      "type": "number"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "buttonDiscoverText": {
+      "type": "string"
+    },
+    "buttonDiscoverUrl": {
+      "type": "string"
+    },
+    "buttonExploreText": {
+      "type": "string"
+    },
+    "buttonExploreUrl": {
+      "type": "string"
+    }
+  },
+  "textdomain": "tailgrids-discover",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

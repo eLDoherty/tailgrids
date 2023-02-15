@@ -1,0 +1,58 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-product-slider-item {
+	padding: 2px;
+}
+
+.product-slider-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__left {
+		width: calc( 60% - 20px );
+		&--heading {
+			font-size: 36px;
+			font-weight: 700;
+			color: #212B36;
+			margin: 15px 0;
+		}
+		&--subheading {
+			font-size: 18px;
+			font-weight: 800;
+			color: #3056D3;
+		}
+		&--caption {
+			font-size: 16px;
+			font-weight: 500;
+			color: #637381;
+			margin-bottom: 50px;
+		}
+		&--button {
+			font-size: 16px;
+			font-weight: 600;
+			padding: 15px 30px;
+			border-radius: 30px;
+			color: white;
+			background-color: #3056D3;
+			text-decoration: none;
+			border: 1px solid #3056D3;
+			transition: 0.4s;
+			cursor: pointer;
+			&:hover {
+				background-color: transparent;
+				color: #3056D3;
+				border-radius: 5px;
+			}
+		}
+	}
+	&__right {
+		width: calc( 40% - 20px );
+		display: flex;
+		justify-content: flex-end;
+	}
+}

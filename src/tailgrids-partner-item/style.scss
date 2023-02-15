@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-partner-item {
+	color: #fff;
+	padding: 2px;
+}
+
+.tailgrids-partner-item {
+	margin-right: 50px;
+	width: calc( 20% - 30px);
+	img {
+		width: 100%;
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	.tailgrids-partner-item {
+		width: calc( 60% - 30px ) !important;
+		margin-bottom: 30px;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 777.98px) {
+	.tailgrids-partner-item {
+		width: calc( 44% - 30px );
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1299.98px) {
+
+}

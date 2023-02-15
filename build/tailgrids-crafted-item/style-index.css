@@ -1,0 +1,78 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-crafted-item/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-crafted-item {
+  background-color: transparent;
+  color: black;
+  padding: 2px;
+}
+
+.crafted-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.crafted-item__number {
+  margin-right: 20px;
+}
+.crafted-item__number .number-holder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #3056D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #3056D3;
+  font-size: 25px;
+  font-weight: 600;
+}
+.crafted-item__text h4 {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.25;
+  font-family: "Inter", sans-serif;
+}
+.crafted-item__text p.item-caption {
+  margin: 0;
+  font-size: 16px;
+  color: #637381;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-crafted__wrapper--right {
+    display: none;
+  }
+  .tailgrids-crafted__wrapper--left {
+    width: 100%;
+  }
+  .tailgrids-crafted__wrapper--left h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .crafted-item__text h4 {
+    font-size: 18px;
+  }
+  .crafted-item__text p.item-caption {
+    font-size: 14px;
+  }
+  .crafted-item__number .number-holder {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

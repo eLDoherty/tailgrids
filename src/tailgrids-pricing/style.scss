@@ -1,0 +1,181 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-pricing {
+	background-color: #F4F7FF;
+	color: black;
+}
+
+.tailgrids-pricing {
+	background-color: #F4F7FF;
+	padding: 100px 0 !important;
+	&__text {
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+		.pricing-subheading {
+			font-size: 18px;
+			font-weight: 600;
+			color: #3056D3;
+		}
+		h2 {
+			font-size: 40px;
+			font-weight: 700;
+			margin: 15px 0;
+		}
+		.pricing-caption {
+			font-size: 16px;
+			font-weight: 400;
+			color: #637381;
+		}
+	}
+	&__products {
+		margin: 80px 0;
+		display: flex;
+		justify-content: space-evenly;
+		.pricing-card {
+			background-color: white;
+			width: calc( 26% - 55px );
+			border-radius: 12px;
+			padding: 55px;
+			box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+			position: relative;
+			h2 {
+				font-size: 20px;
+				font-weight: 500;
+			}
+			.product-price {
+				font-size: 42px;
+				font-weight: 600;
+				margin: 15px 0;
+				.dollars {
+					font-size: 20px;
+					font-weight: 500;
+				}
+				.per_month{
+					color:#637381;
+					font-size: 15px;
+					font-weight: 500;
+				}
+			}
+			h3 {
+				font-size: 18px;
+				font-weight: 500;
+			}
+			ul {
+				list-style: none;
+				margin-bottom: 50px;
+				li {
+					margin-top: 10px;
+					font-size: 16px;
+					font-weight: 400;
+					color: #637381;
+				}
+			}
+			.blue-button {
+				padding: 10px 20px;
+				color: white;
+				text-decoration: none;
+				font-size: 16px;
+				border-radius: 5px;
+				font-weight: 600;
+				background-color: #3056D3;
+				border: 1px solid #3056D3;
+				transition: 0.3s;
+				&:hover {
+					background-color: white;
+					color: #3056D3
+				}
+			}
+			.white-button {
+				padding: 10px 20px;
+				color: #3056D3;
+				text-decoration: none;
+				font-size: 16px;
+				border-radius: 5px;
+				font-weight: 600;
+				background-color: white;
+				border: 1px solid #D4DEFF;
+				transition: 0.3s;
+				&:hover {
+					background-color: #3056D3;
+					color: white;
+				}
+			}
+			.recommended {
+				position: absolute;
+				transform: rotate(-90deg);
+				top: 13.5%;
+				right: -20px;
+				background-color: #3056D3;
+				color: white;
+				padding: 10px 20px;
+				border-radius: 5px 0 0 5px;
+			}
+		}
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+	.tailgrids-pricing__products .pricing-card {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+	.tailgrids-pricing__products .pricing-card .product-price {
+		font-size: 40px;
+	}
+	.tailgrids-pricing__products .pricing-card .product-price .per_month {
+		font-size: 16px;
+	}
+	.tailgrids-pricing__products .pricing-card {
+		padding: 35px;
+	}
+	.tailgrids-pricing__products .pricing-card .recommended {
+		top: 15.5%;
+	}
+	.tailgrids-pricing__products .pricing-card ul li {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-pricing__text {
+		padding: 0 20px;
+		max-width: unset;
+		h2 {
+			font-size: 25px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	.tailgrids-pricing__products {
+		flex-wrap: wrap;
+	}
+	.tailgrids-pricing__products .pricing-card {
+		width: calc(35% - 30px);
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.tailgrids-pricing__products .pricing-card .product-price {
+		font-size: 28px;
+	}
+	.tailgrids-pricing__products .pricing-card .product-price .per_month {
+		font-size: 13px;
+	}
+	.tailgrids-pricing__products .pricing-card .recommended {
+		right: -40px;
+	}
+}

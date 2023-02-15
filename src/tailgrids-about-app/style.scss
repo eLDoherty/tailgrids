@@ -1,0 +1,94 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-about-app {
+	padding: 2px;
+}
+
+.tailgrids-about-app {
+	padding: 60px 0;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		padding: 30px;
+
+		&--left {
+			width: calc(50% - 30px);
+			.about-app-subheading {
+				font-size: 18px;
+				font-weight: 600;
+				color: #3056D3;
+				margin: 20px 0;
+			}
+			.about-app-heading {
+				font-size: 40px;
+				font-weight: 700;
+				margin-bottom: 40px;
+				line-height: 1.2;
+			}
+			.about-app-item {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+		}
+
+		&--right {
+			width: calc(50% - 30px);
+			text-align: center;
+		}
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	.tailgrids-about-app__wrapper--left {
+		width: 100% !important;
+	}
+	.tailgrids-about-app__wrapper--right {
+		display: none !important;
+		img {
+			display: none;
+		}
+	} 
+	.tailgrids-about-app__wrapper {
+		padding: 0;
+	}
+}
+
+@media (max-width: 790.98px) {
+	.tailgrids-about-app__wrapper--left .about-app-heading {
+		font-size: 30px;
+	}
+	.about-app-item__list--heading {
+		font-size: 18px;
+	}
+	.about-app-item__list--caption {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-about-app__wrapper--left {
+		width: calc( 60% - 10px );
+	}
+	.tailgrids-about-app__wrapper--right {
+		width: calc( 30% - 20px );
+		display: flex;
+		align-items: center;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

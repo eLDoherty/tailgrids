@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/tailgrids-download",
+	"version": "0.1.0",
+	"title": "Tailgrids Download",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"heading": {
+			"type": "string"
+		},
+		"caption": {
+			"type": "string"
+		},
+		"buttonIosText": {
+			"type": "string"
+		},
+		"buttonIosUrl": {
+			"type": "string"
+		},
+		"buttonAndroidText": {
+			"type": "string"
+		},
+		"buttonAndroidUrl": {
+			"type": "string"
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"iosIcon": {
+			"type": "string"
+		},
+		"androidIcon": {
+			"type": "string"
+		}
+	},
+	"textdomain": "tailgrids-download",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

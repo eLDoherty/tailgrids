@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-simple-contact-item {
+	padding: 2px;
+}
+
+.tailgrids-simple-contact-item {
+	width: calc( 20% - 20px );
+	text-align: center;
+	&__thumbnail {
+		width: 130px;
+		height: 130px;
+		background-color: #F7F8FA;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px auto;
+	}
+	&__detail {
+
+		&--title {
+			font-size: 18px;
+			font-weight: 800;
+			margin-bottom: 10px;
+		}
+		&--text {
+			font-size: 15px;
+			font-weight: 400;
+			color: #637381;
+			line-height: 1.6;
+		}
+	}
+}

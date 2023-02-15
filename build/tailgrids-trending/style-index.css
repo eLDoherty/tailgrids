@@ -1,0 +1,41 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-trending/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-trending {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tailgrids-trending .slick-arrow {
+  position: absolute;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: white;
+  transition: 0.3s;
+  border: 2px solid rgb(80, 80, 80);
+}
+.tailgrids-trending .slick-arrow:hover {
+  border-color: #3056D3;
+  color: #3056D3;
+}
+.tailgrids-trending .slick-next {
+  right: 3%;
+}
+.tailgrids-trending .slick-prev {
+  right: calc(3% + 70px);
+}
+.tailgrids-trending .slick-track {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,186 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-contact/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-contact {
+  padding: 2px;
+}
+
+.tailgrids-contact {
+  height: 800px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.tailgrids-contact__top {
+  background-color: #E9F9FF;
+  height: 400px;
+  padding: 74px 0;
+  display: flex;
+  align-items: flex-end;
+}
+.tailgrids-contact__top--text {
+  padding: 0 120px;
+}
+.tailgrids-contact__top--text h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.tailgrids-contact__top--text p {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.tailgrids-contact__bottom {
+  height: 400px;
+  padding: 74px 0;
+}
+.tailgrids-contact__bottom .detail-contact {
+  padding: 0 120px;
+  display: flex;
+}
+.tailgrids-contact__bottom .detail-contact__location {
+  margin-right: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+.tailgrids-contact__bottom .detail-contact__location .location-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/location.0f6a23ec.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+.tailgrids-contact__bottom .detail-contact__mail {
+  display: flex;
+  align-items: flex-start;
+}
+.tailgrids-contact__bottom .detail-contact__mail .mail-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/mail.69695d6a.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+.tailgrids-contact__bottom h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.tailgrids-contact__bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #637381;
+  line-height: 1.5;
+}
+.tailgrids-contact__form {
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 60px;
+  max-width: 30%;
+}
+.tailgrids-contact__form h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.tailgrids-contact__form label {
+  color: #637381;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.tailgrids-contact__form input, .tailgrids-contact__form textarea {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  margin: 10px 0;
+  height: 35px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+.tailgrids-contact__form input:focus, .tailgrids-contact__form textarea:focus {
+  outline: none;
+}
+.tailgrids-contact__form input[type=submit] {
+  width: 120px;
+  background-color: #3056D3;
+  border: 1px solid #3056D3;
+  color: white;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.4s;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.tailgrids-contact__form input[type=submit]:hover {
+  border: 1px solid #3056D3;
+  background-color: white;
+  color: #3056D3;
+}
+
+@media (max-width: 777.98px) {
+  .tailgrids-contact {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .tailgrids-contact__form {
+    position: unset;
+    width: 80%;
+    max-width: unset !important;
+    transform: unset;
+    padding: 30px;
+    margin: 30px auto;
+  }
+  .tailgrids-contact__top, .tailgrids-contact__bottom {
+    height: unset;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-contact__bottom .detail-contact {
+    padding: 0 30px !important;
+  }
+  .tailgrids-contact__top--text {
+    padding: 0 30px !important;
+  }
+  .tailgrids-contact__top--text h2 {
+    font-size: 28px !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .tailgrids-contact__top--text {
+    padding: 0 80px;
+  }
+  .tailgrids-contact__bottom .detail-contact {
+    padding: 0 80px;
+  }
+}
+@media (max-width: 1299.98px) {
+  .tailgrids-contact__bottom .detail-contact {
+    flex-direction: column;
+  }
+  .tailgrids-contact__bottom .detail-contact__location {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

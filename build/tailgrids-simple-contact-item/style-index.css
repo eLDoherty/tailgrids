@@ -1,0 +1,40 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-simple-contact-item/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-simple-contact-item {
+  padding: 2px;
+}
+
+.tailgrids-simple-contact-item {
+  width: calc(20% - 20px);
+  text-align: center;
+}
+.tailgrids-simple-contact-item__thumbnail {
+  width: 130px;
+  height: 130px;
+  background-color: #F7F8FA;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.tailgrids-simple-contact-item__detail--title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.tailgrids-simple-contact-item__detail--text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #637381;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,87 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-about-app/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-about-app {
+  padding: 2px;
+}
+
+.tailgrids-about-app {
+  padding: 60px 0;
+}
+.tailgrids-about-app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.tailgrids-about-app__wrapper--left {
+  width: calc(50% - 30px);
+}
+.tailgrids-about-app__wrapper--left .about-app-subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3056D3;
+  margin: 20px 0;
+}
+.tailgrids-about-app__wrapper--left .about-app-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+.tailgrids-about-app__wrapper--left .about-app-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tailgrids-about-app__wrapper--right {
+  width: calc(50% - 30px);
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-about-app__wrapper--left {
+    width: 100% !important;
+  }
+  .tailgrids-about-app__wrapper--right {
+    display: none !important;
+  }
+  .tailgrids-about-app__wrapper--right img {
+    display: none;
+  }
+  .tailgrids-about-app__wrapper {
+    padding: 0;
+  }
+}
+@media (max-width: 790.98px) {
+  .tailgrids-about-app__wrapper--left .about-app-heading {
+    font-size: 30px;
+  }
+  .about-app-item__list--heading {
+    font-size: 18px;
+  }
+  .about-app-item__list--caption {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-about-app__wrapper--left {
+    width: calc(60% - 10px);
+  }
+  .tailgrids-about-app__wrapper--right {
+    width: calc(30% - 20px);
+    display: flex;
+    align-items: center;
+  }
+  .tailgrids-about-app__wrapper--right img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

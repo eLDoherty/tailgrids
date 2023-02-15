@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/tailgrids-cta",
+	"version": "0.1.0",
+	"title": "Tailgrids Cta",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"heading": {
+			"type": "string"
+		},
+		"subheading": {
+			"type": "string"
+		},
+		"caption": {
+			"type": "string"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Explore Now"
+		},
+		"buttonUrl": {
+			"type": "url",
+			"default": "https://google.com/"
+		}
+	},
+	"textdomain": "tailgrids-cta",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

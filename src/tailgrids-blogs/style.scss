@@ -1,0 +1,138 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-blogs {
+	padding: 2px;
+}
+
+.tailgrids-blogs {
+	padding: 80px 0;
+	&__text {
+		max-width: 650px;
+		text-align: center;
+		margin: 0 auto;
+		&--subheading {
+			font-size: 18px;
+			font-weight: 800;
+			color: #3056D3;
+		}
+		&--heading {
+			font-size: 40px;
+			font-weight: 700;
+			margin: 15px 0;
+		}
+		&--caption {
+			font-size: 16px;
+			font-weight: 400;
+			color: #637381;
+			line-height: 1.4;
+		}
+	}
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		&--card {
+			width: calc( 32% - 30px );
+
+			a {
+				text-decoration: none;
+			}
+
+			.blogs-thumbnail {
+				width: 100%;
+				img {
+					width: 100%;
+					height: 300px;
+					object-fit: cover;
+					border-radius: 5px;
+				}
+			}
+
+			.blogs-date {
+				background-color: #0C4DF4;
+				color: white;
+				padding: 8px 20px;
+				font-size: 12px;
+				font-weight: 600;
+				width: fit-content;
+				border-radius: 3px;
+				margin: 10px 0;
+			}
+
+			.blogs-title {
+				font-size: 24px;
+				font-weight: 600;
+				color: #212B36;
+				margin-bottom: 15px;
+			}
+
+			.blogs-excerpt {
+				font-size: 16px;
+				font-weight: 400;
+				color: #637381;
+			}
+		}
+	}
+	&__button {
+		text-align: center;
+		margin-top: 60px;
+		a {
+			padding: 10px 30px;
+			text-decoration: none;
+			border: 1px solid #637381;
+			color: #637381;
+			border-radius: 5px;
+			transition: 0.3s;
+			&:hover {
+				background-color: #3056D3;
+				border: 1px solid #3056D3;
+				color: white;
+				font-size: 16px;
+				font-weight: 500;
+			}
+		}
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	
+}
+
+@media (max-width: 767.98px) {
+	.tailgrids-blogs__text--heading {
+		font-size: 30px;
+	}
+	.tailgrids-blogs__text--caption {
+		font-size: 14px;
+	}
+	.tailgrids-blogs__item {
+		flex-wrap: wrap;
+		&--card {
+			width: 100%;
+			margin-bottom: 60px;
+		}
+	}
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-blogs__item--card .blogs-thumbnail img {
+		height: 250px;
+	}
+	.tailgrids-blogs__item--card .blogs-title {
+		font-size: 18px;
+	}
+	.tailgrids-blogs__item--card .blogs-excerpt {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

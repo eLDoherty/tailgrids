@@ -1,0 +1,75 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-services-item {
+	padding: 2px;
+}
+
+.tailgrids-services__item--card {
+	width: calc( 25% - 30px );
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 40px;
+	background-color: white;
+	margin-bottom: 30px;
+	transition: 0.3s;
+	.service-item-icon {	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 60px;
+		height: 60px;
+		border-radius: 5px;
+		background-color: #3056D3;
+	}
+	.service-item-title {
+		font-size: 24px;
+		font-weight: 600;
+		margin: 20px 0;
+	}
+	.service-item-caption {
+		font-size: 15px;
+		font-weight: 400;
+		color: #637381;
+	}
+	&:hover {
+		transform: translateX(5px);
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	
+}
+
+@media (max-width: 767.98px) {
+	.tailgrids-services__item--card {		
+		width: calc(45% - 30px) !important;
+		padding: 30px 20px;
+	}
+	.tailgrids-services__text--heading {
+		font-size: 30px;
+	}
+	.tailgrids-services__text--caption {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-services__item--card .service-item-title {
+		font-size: 20px;
+	}
+	.tailgrids-services__item--card {		
+		width: calc(30% - 30px);
+		padding: 30px 20px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

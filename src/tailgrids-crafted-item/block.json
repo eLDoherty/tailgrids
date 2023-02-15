@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/tailgrids-crafted-item",
+	"version": "0.1.0",
+	"title": "Tailgrids Crafted Item",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"number": {
+			"type": "string"
+		},
+		"heading": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
+		},
+		"caption": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"color": {
+			"type": "object"
+		},
+		"colorNumber": {
+			"type": "object"
+		}
+
+	},
+	"textdomain": "tailgrids-crafted-item",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

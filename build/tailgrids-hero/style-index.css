@@ -1,0 +1,184 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-hero/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-hero {
+  padding: 2px;
+}
+
+.tailgrids-hero {
+  position: relative;
+  height: 800px;
+  background-color: #3056d3;
+}
+.tailgrids-hero__content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 35%;
+  text-align: center;
+  max-width: 533px;
+}
+.tailgrids-hero__content h2 {
+  color: #FFFFFF;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
+}
+.tailgrids-hero__content P {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  font-family: "Inter", sans-serif;
+}
+.tailgrids-hero__content--button {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.tailgrids-hero__content--button .get-started {
+  padding: 15px 25px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.tailgrids-hero__content--button .get-started:hover {
+  background-color: #13C296;
+  color: white;
+  font-weight: 500;
+}
+.tailgrids-hero__button-left {
+  margin-right: 30px;
+}
+.tailgrids-hero__button-right a {
+  text-decoration: none;
+}
+.tailgrids-hero__button-right a img {
+  margin-left: 3px;
+}
+.tailgrids-hero__button-right .rounded-wrapper {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+.tailgrids-hero__button-right .rounded-wrapper:hover {
+  background-color: #13C296;
+}
+.tailgrids-hero__button-right .play-video {
+  display: flex;
+  align-items: center;
+}
+.tailgrids-hero__button-right .play-video p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.tailgrids-hero__holder {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tailgrids-hero__holder--main {
+  position: relative;
+}
+.tailgrids-hero__holder--main:before {
+  content: url(../images/dotted.4831f7b9.png);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: -33px;
+}
+.tailgrids-hero__holder--main:after {
+  content: url(../images/dotted.4831f7b9.png);
+  display: block;
+  position: absolute;
+  top: -29px;
+  right: -29px;
+}
+.tailgrids-hero__holder--main img {
+  position: relative;
+  z-index: 99;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-hero {
+    height: 600px;
+  }
+  .tailgrids-hero__content {
+    top: 33%;
+  }
+  .tailgrids-hero__content h2 {
+    font-size: 28px;
+  }
+  .tailgrids-hero__content--button {
+    flex-direction: column-reverse;
+  }
+  .tailgrids-hero__button-right {
+    margin-bottom: 30px;
+  }
+  .tailgrids-hero__button-left {
+    margin-right: 0;
+  }
+  .tailgrids-hero__holder {
+    width: 100%;
+  }
+  .tailgrids-hero__holder img {
+    width: 100%;
+  }
+  .tailgrids-hero__button-right .rounded-wrapper {
+    margin-right: 0;
+  }
+  .tailgrids-hero__button-right .play-video {
+    flex-direction: column;
+  }
+  .tailgrids-hero__button-right .rounded-wrapper {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-hero__holder {
+    width: 100%;
+  }
+  .tailgrids-hero__holder img {
+    width: 100%;
+  }
+  .tailgrids-hero__content h2 {
+    font-size: 35px;
+  }
+  .tailgrids-hero__content P {
+    font-size: 14px;
+  }
+  .tailgrids-hero__content--button .get-started {
+    font-size: 14px;
+  }
+  .tailgrids-hero__button-right .play-video p {
+    font-size: 14px;
+  }
+  .tailgrids-hero__content {
+    max-width: unset;
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

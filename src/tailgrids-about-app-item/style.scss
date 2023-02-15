@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-about-app-item {
+	padding: 2px;
+}
+
+.about-app-item__list {
+	margin-bottom: 30px;
+	width: calc( 50% - 30px );
+
+	.icon-wrapper {
+		width: 60px;
+		height: 60px;
+		border-radius: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&--heading {
+		font-size: 22px;
+		font-weight: 600;
+		margin: 20px 0;
+	}
+	&--caption {
+		font-weight: 400;
+		font-size: 16px;
+		color: #637381;
+	}
+
+}

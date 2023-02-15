@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/tailgrids-simple-contact-item",
+	"version": "0.1.0",
+	"title": "Tailgrids Simple Contact Item",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"iconUrl": {
+			"type": "string"
+		},
+		"iconId": {
+			"type": "number"
+		},
+		"title": {
+			"type": "string"
+		},
+		"detail": {
+			"type": "string"
+		}
+	},
+	"textdomain": "tailgrids-simple-contact-item",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/tailgrids-hero",
+  "version": "0.1.0",
+  "title": "Tailgrids Hero",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2"
+    },
+    "caption": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Get Started Now"
+    },
+    "buttonUrl": {
+      "type": "url",
+      "default": "https://google.com/"
+    },
+    "buttonText1": {
+      "type": "string",
+      "default": "Play Intro Video"
+    },
+    "buttonUrl1": {
+      "type": "url",
+      "default": "https://youtube.com/"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageId": {
+      "type": "number"
+    }
+  },
+  "textdomain": "tailgrids-hero",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

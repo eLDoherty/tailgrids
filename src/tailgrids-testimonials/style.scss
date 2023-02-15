@@ -1,0 +1,177 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-testimonials {
+	margin: 0;
+}
+
+@import 'swiper/css';
+
+.tailgrids-testimonials {
+	padding: 100px 0;
+	.swiper {
+		overflow: visible !important;
+	}
+	.swiper-button-next, .swiper-button-prev {
+		position: absolute;
+		bottom: -60px;
+		width: 50px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		color: #3056D3;
+		transition: 0.3s;
+		font-weight: 600;
+		z-index: 100;
+		border: 1px solid #3056D3;
+		cursor: pointer;
+		&:hover {
+			background-color: #3056D3;
+			color: white;
+		}
+	}
+	.swiper-button-next {
+		right: calc(50% - 51px)
+	}
+	.swiper-button-prev {
+		left: calc(50% - 51px);
+	}
+
+	&__text {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+		&--heading {
+			font-size: 40px;
+			font-weight: 700;
+			margin: 15px 0;
+		}
+		&--subheading {
+			font-size: 18px;
+			font-weight: 600;
+			color: #3056D3;
+		}
+		&--caption {
+			font-size: 16px;
+			color:#637381;
+			font-weight: 400;
+		}
+	}
+	&__wrapper {
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		min-height: 250px;
+		.testimonials-item {
+			box-shadow: 0px 60px 120px -20px #EBEFFD;
+			padding: 30px;
+			.rating {
+				display: flex;
+				margin-bottom: 20px;
+				.star {
+					background-image: url('../assets/star.png');
+					width: 20px;
+					height: 20px;
+					background-size: cover;
+					background-repeat: no-repeat;
+					margin-right: 5px;
+				}
+			}
+			.testimonials-caption {
+				color:#637381;
+				font-size: 16px;
+				font-weight: 400;
+			}
+			.testimonials-credentials {
+				margin-top: 15px;
+				.comment-author {
+					font-size: 14px;
+					font-weight: 600;
+					margin-bottom: 5px;
+				}
+				.email-author {
+					font-size: 12px;
+					font-weight: 400;
+					color: #969696;
+				}
+			}
+		}
+		.slick-slide {
+			margin: 0 40px;
+		}
+		.slick-list {
+			margin: 0 -40px;
+			overflow: visible;
+		}
+		.slick-arrow {
+			position: absolute;
+			bottom: -40px;
+			padding: 0 10px;
+			font-size: 30px;
+			font-weight: 700;
+			background-color: white;
+			color: #637381;
+			border: none;
+			z-index: 99;
+			transition: 0.4s;
+			cursor: pointer;
+			&:hover {
+				background-color: #3056D3;
+				color: white;
+			}
+		}
+		.slick-prev {
+			left: 46.5%;
+		}
+		.slick-next {
+			right: 46.5%;
+		}
+	}
+}	
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	.tailgrids-testimonials__wrapper .slick-next {
+		right: 30% !important;
+	}
+	.tailgrids-testimonials__wrapper .slick-prev {
+		left: 30% !important;
+	}
+	.tailgrids-testimonials__wrapper .slick-arrow {
+		bottom: -50px !important;
+	}
+	.swiper-backface-hidden .swiper-slide {
+		margin-left: -50px;
+	}
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-testimonials__wrapper .slick-next {
+		right: 40%;
+	}
+	.tailgrids-testimonials__wrapper .slick-prev {
+		left: 40%;
+	}
+	.tailgrids-testimonials__wrapper .slick-arrow {
+		bottom: -70px;
+	}
+	.tailgrids-testimonials__text--heading {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

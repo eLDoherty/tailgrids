@@ -1,0 +1,195 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ $inter: 'Inter', sans-serif;
+
+.wp-block-create-block-tailgrids-hero {
+	padding: 2px;
+}
+
+.tailgrids-hero {
+	position: relative;
+	height: 800px;
+	background-color: #3056d3;
+	&__content {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		top: 35%;
+		text-align: center;
+		max-width: 533px;
+		h2 {
+			color: #FFFFFF;
+			font-size: 42px;
+			font-weight: 700;
+			font-family: $inter;
+			margin-bottom: 20px;
+		}
+		P {
+			color: #FFFFFF;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1.8;
+			font-family: $inter;
+		}
+		&--button {
+			display: flex;
+			margin-top: 40px;
+			justify-content: center;
+			align-items: center;
+			.get-started {
+				padding: 15px 25px;
+				font-size: 16px;
+				font-family: $inter;
+				font-weight: 500;
+				color: black;
+				text-decoration: none;
+				background-color: white;
+				border-radius: 5px;
+				transition: 0.4s;
+				&:hover {
+					background-color: #13C296;
+					color: white;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	&__button-left {
+		margin-right: 30px;
+	}
+	&__button-right {
+		a {
+			text-decoration: none;
+			img {
+				margin-left: 3px;
+			}
+		}
+		.rounded-wrapper {
+			width: 54px;
+			height: 54px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+			border-radius: 50%;
+			margin-right: 15px;
+			transition: 0.3s;
+			&:hover {
+				background-color: #13C296;
+			}
+		}
+		.play-video {
+			display: flex;
+			align-items: center;
+			p {
+				font-size: 16px;
+				font-weight: 500;
+				font-family: $inter;
+			}
+		}
+	}
+	&__holder {
+		position: absolute;
+		bottom: -5px;
+		left: 50%;
+		transform: translateX(-50%);
+		&--main {
+			position: relative;
+			&:before {
+				content: url('../assets/dotted.png');
+				display: block;
+				position: absolute;
+				bottom: 0;
+				left: -33px;
+			}
+			&:after {
+				content: url('../assets/dotted.png');
+				display: block;
+				position: absolute;
+				top: -29px;
+				right: -29px;
+			}
+			img {
+				position: relative;
+				z-index: 99;
+			}
+		}
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	.tailgrids-hero {
+		height: 600px;
+	}
+	.tailgrids-hero__content {
+		top: 33%;
+	}
+	.tailgrids-hero__content h2 {
+		font-size: 28px;
+	}
+	.tailgrids-hero__content--button {
+		flex-direction: column-reverse;
+	}
+	.tailgrids-hero__button-right {
+		margin-bottom: 30px;
+	}
+	.tailgrids-hero__button-left {
+		margin-right: 0;
+	}
+	.tailgrids-hero__holder {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+	.tailgrids-hero__button-right .rounded-wrapper {
+		margin-right: 0;
+	}
+	.tailgrids-hero__button-right .play-video {
+		flex-direction: column;
+	}
+	.tailgrids-hero__button-right .rounded-wrapper {
+		height: 40px;
+		width: 40px;
+	}
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-hero__holder {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+	.tailgrids-hero__content h2 {
+		font-size: 35px;
+	}
+	.tailgrids-hero__content P {
+		font-size: 14px;
+	}
+	.tailgrids-hero__content--button .get-started {
+		font-size: 14px;
+	}
+	.tailgrids-hero__button-right .play-video p {
+		font-size: 14px;
+	}
+	.tailgrids-hero__content {
+		max-width: unset;
+		width: 80%;
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

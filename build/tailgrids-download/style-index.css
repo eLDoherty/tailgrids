@@ -1,0 +1,132 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-download/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-download {
+  padding: 2px;
+}
+
+.tailgrids-download {
+  margin: 80px 0;
+}
+.tailgrids-download__wrapper {
+  background-image: url(../images/download.01abd45c.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 480px;
+}
+.tailgrids-download__wrapper--left {
+  width: calc(50% - 40px);
+  padding: 80px;
+}
+.tailgrids-download__wrapper--left .download-heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.tailgrids-download__wrapper--left .download-caption {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.tailgrids-download__wrapper--left .download-button {
+  display: flex;
+}
+.tailgrids-download__wrapper--left .download-button__ios {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tailgrids-download__wrapper--left .download-button__ios img {
+  margin-right: 10px;
+}
+.tailgrids-download__wrapper--left .download-button__ios a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.tailgrids-download__wrapper--left .download-button__android {
+  display: flex;
+  align-items: center;
+}
+.tailgrids-download__wrapper--left .download-button__android img {
+  margin-right: 10px;
+}
+.tailgrids-download__wrapper--left .download-button__android a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.tailgrids-download__wrapper--right {
+  width: calc(50% - 40px);
+  padding: 80px;
+  position: relative;
+}
+.tailgrids-download__wrapper--right img {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
+
+@media (max-width: 767.98px) {
+  .tailgrids-download__wrapper--left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tailgrids-download__wrapper--left .download-caption {
+    font-size: 16px;
+  }
+  .tailgrids-download__wrapper--right {
+    display: none !important;
+  }
+  .tailgrids-download__wrapper {
+    min-height: unset;
+  }
+  .tailgrids-download__wrapper--left .download-button {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .tailgrids-download__wrapper--left .download-button__android {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-download__wrapper--left .download-heading {
+    font-size: 28px;
+  }
+  .tailgrids-download__wrapper {
+    background-size: cover;
+    background-position: right;
+  }
+  .tailgrids-download__wrapper--right img {
+    width: 60%;
+  }
+  .tailgrids-download__wrapper--left .download-caption {
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  .tailgrids-download__wrapper--left .download-button__ios a, .tailgrids-download__wrapper--left .download-button__android a {
+    white-space: pre;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

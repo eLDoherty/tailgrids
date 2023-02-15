@@ -1,0 +1,103 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-trending-item/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-trending-item {
+  padding: 2px;
+}
+
+.tailgrids-trending__wrapper--item {
+  display: flex !important;
+  justify-content: space-between;
+  background-color: #F4F7FF;
+}
+.tailgrids-trending__wrapper--item .trending-image {
+  width: calc(50% - 30px);
+}
+.tailgrids-trending__wrapper--item .trending-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tailgrids-trending__wrapper--item .trending-detail {
+  width: calc(50% - 30px);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tailgrids-trending__wrapper--item .trending-detail__subheading {
+  font-size: 28px;
+  color: #3056D3;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.tailgrids-trending__wrapper--item .trending-detail__heading {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.tailgrids-trending__wrapper--item .trending-detail__caption {
+  color: #637381;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.tailgrids-trending__wrapper--item .trending-detail__button {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  border-radius: 3px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.tailgrids-trending__wrapper--item .trending-detail__button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-trending__wrapper--item .trending-detail {
+    padding: 20px;
+  }
+  .tailgrids-trending .slick-arrow {
+    display: none !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .tailgrids-trending__wrapper--item .trending-detail {
+    padding: 40px;
+  }
+  .tailgrids-trending__wrapper--item .trending-detail__subheading {
+    font-size: 18px;
+  }
+  .tailgrids-trending__wrapper--item .trending-detail__heading {
+    font-size: 30px;
+  }
+  .tailgrids-trending__wrapper--item .trending-detail__caption {
+    font-size: 13px;
+  }
+  .tailgrids-trending__wrapper--item .trending-detail__button {
+    font-size: 13px;
+  }
+  .tailgrids-trending .slick-arrow {
+    height: 30px;
+    width: 30px;
+  }
+  .tailgrids-trending .slick-prev {
+    right: calc(3% + 50px);
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

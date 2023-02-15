@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-simple-contact {
+	border: 1px dotted #f00;
+}
+
+.wp-block-create-block-tailgrids-simple-contact .block-editor-inner-blocks .block-editor-block-list__layout {
+    display: flex;
+}

@@ -1,0 +1,122 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-discover {
+	padding: 2px;
+}
+
+.tailgrids-discover {
+	margin: 80px 0;
+	position: relative;
+	&__img {
+		width: 100%;
+		height: auto;
+	}
+	&__detail {
+		background-color: white;
+		padding: 60px;
+		position: absolute;
+		left: 20%;
+		top: 50%;
+		transform: translate(-20%, -50%);
+		z-index: 88;
+		max-width: 500px;
+		&--subheading {
+			font-size: 16px;
+			font-weight: 600;
+			color: #3056D3;
+		}
+		&--heading {
+			font-size: 35px;
+			font-weight: 700;
+			margin: 20px 0;
+		}
+		&--caption {
+			font-size: 16px;
+			font-weight: 500;
+			color: #637381;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+		&--button {
+			display: flex;
+			align-items: center;
+			.discover-button {
+				padding: 10px 20px;
+				color: white;
+				border-radius: 5px;
+				font-size: 16px;
+				font-weight: 600;
+				text-decoration: none;
+				background-color: #3056D3;
+				border: 1px solid #3056D3;
+				transition: 0.3s;
+				&:hover {
+					background-color: white;
+					color: #3056D3;
+				}
+			}
+			.explore-button {
+				padding: 10px 20px;
+				border-radius: 5px;
+				font-size: 16px;
+				font-weight: 600;
+				text-decoration: none;
+				color: black;
+				display: flex;
+				align-items: center;
+				transition: 0.3s;
+				span {
+					font-size: 20px;
+					font-weight: 700;
+					margin-left: 5px;
+					transition: 0.3s;
+				}
+				&:hover span {
+					transform: translateX(3px);
+				}
+			}
+		}
+	}
+}
+
+// Responsiveness
+
+@media (max-width: 575.98px) {
+	
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	.tailgrids-discover__detail--heading {
+		font-size: 28px;
+	}
+	.tailgrids-discover__detail--button .discover-button {
+		font-size: 14px;
+	}
+	.tailgrids-discover__detail--button .explore-button {
+		font-size: 14px;
+	}
+	.tailgrids-discover__img {
+		min-height: 600px;
+		object-fit: cover;
+	}
+	.tailgrids-discover__detail {
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0.9;
+		width: 80%;
+		max-height: unset;
+	}
+}
+
+@media (max-width: 1199.98px) {
+
+}

@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-crafted {
+	border: 1px dotted #f00;
+	margin-top: 0 !important;
+	margin-block-start: 0 !important;
+}
+
+.tailgrids-crafted-editor {
+	background-color: #F4F7FF;
+	padding: 60px 0;
+	color: black;
+	margin-block-start: 0 !important;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1280px;
+		margin: 0 auto;
+		&--left, &--right {
+			width: calc( 50% - 40px )
+		}
+		&--left {
+			padding: 30px;
+		}
+	}
+}

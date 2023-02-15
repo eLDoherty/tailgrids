@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-crafted-item {
+	border: 1px dotted #f00;
+	color: black;
+}
+
+.crafted-item {
+	background-color: transparent !important;
+	display: flex;
+	align-items: center;
+	&__number {
+		margin-right: 20px;
+		font-size: 30px;
+	}
+	&__text {
+
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/tailgrids-contact",
+  "version": "0.1.0",
+  "title": "Tailgrids Contact",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "locationHeading": {
+      "type": "string"
+    },
+    "locationDetail": {
+      "type": "string"
+    },
+    "mailHeading": {
+      "type": "string"
+    },
+    "mailDetail": {
+      "type": "string"
+    }
+  },
+  "textdomain": "tailgrids-contact",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./template.php"
+}

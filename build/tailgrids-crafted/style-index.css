@@ -1,0 +1,113 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-crafted/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-crafted {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+  -webkit-margin-before: 0 !important;
+          margin-block-start: 0 !important;
+}
+
+.tailgrids-crafted {
+  background-color: #F4F7FF;
+  padding: 120px 0;
+  color: black;
+}
+.tailgrids-crafted__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+.tailgrids-crafted__wrapper--left, .tailgrids-crafted__wrapper--right {
+  width: calc(50% - 40px);
+}
+.tailgrids-crafted__wrapper--left {
+  padding: 40px 120px;
+}
+.tailgrids-crafted__wrapper--left h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+  margin-bottom: 50px;
+  line-height: 1.25;
+  font-family: "Inter", sans-serif;
+}
+.tailgrids-crafted__wrapper--left p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3056D3;
+  font-family: "Inter", sans-serif;
+}
+.tailgrids-crafted__wrapper--right {
+  text-align: right;
+  padding-top: 80px;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-hero {
+    height: 600px;
+  }
+  .tailgrids-hero__content {
+    top: 33%;
+  }
+  .tailgrids-hero__content h2 {
+    font-size: 28px;
+  }
+  .tailgrids-hero__content--button {
+    flex-direction: column-reverse;
+  }
+  .tailgrids-hero__button-right {
+    margin-bottom: 30px;
+  }
+  .tailgrids-hero__button-left {
+    margin-right: 0;
+  }
+  .tailgrids-hero__holder {
+    width: 100%;
+  }
+  .tailgrids-hero__holder img {
+    width: 100%;
+  }
+  .tailgrids-hero__button-right .rounded-wrapper {
+    margin-right: 0;
+  }
+  .tailgrids-hero__button-right .play-video {
+    flex-direction: column;
+  }
+  .tailgrids-hero__button-right .rounded-wrapper {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-crafted__wrapper--left {
+    padding: 40px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .tailgrids-crafted__wrapper--left h3 {
+    font-size: 30px;
+  }
+  .tailgrids-crafted__wrapper--left p {
+    font-size: 16px;
+  }
+  .crafted-item__text h4 {
+    font-size: 18px;
+  }
+  .tailgrids-crafted__wrapper--left {
+    width: 65%;
+  }
+  .tailgrids-crafted__wrapper--right {
+    width: 30%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

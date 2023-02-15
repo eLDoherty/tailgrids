@@ -1,0 +1,43 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-simple-contact/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-simple-contact {
+  padding: 2px;
+}
+
+.tailgrids-simple-contact {
+  margin: 60px 0;
+}
+.tailgrids-simple-contact__text {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tailgrids-simple-contact__text--heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.tailgrids-simple-contact__text--subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3056D3;
+}
+.tailgrids-simple-contact__text--caption {
+  font-size: 16p;
+  font-weight: 400;
+  color: #637381;
+}
+.tailgrids-simple-contact__detail {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

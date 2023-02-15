@@ -1,0 +1,32 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-partner/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-partner {
+  background-color: #F4F7FF;
+  padding: 2px;
+  min-height: 200px;
+}
+
+.tailgrids-partner {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+.tailgrids-partner__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 991.98px) {
+  .tailgrids-partner__wrapper {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,128 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-blogs/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-blogs {
+  padding: 2px;
+}
+
+.tailgrids-blogs {
+  padding: 80px 0;
+}
+.tailgrids-blogs__text {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+.tailgrids-blogs__text--subheading {
+  font-size: 18px;
+  font-weight: 800;
+  color: #3056D3;
+}
+.tailgrids-blogs__text--heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.tailgrids-blogs__text--caption {
+  font-size: 16px;
+  font-weight: 400;
+  color: #637381;
+  line-height: 1.4;
+}
+.tailgrids-blogs__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.tailgrids-blogs__item--card {
+  width: calc(32% - 30px);
+}
+.tailgrids-blogs__item--card a {
+  text-decoration: none;
+}
+.tailgrids-blogs__item--card .blogs-thumbnail {
+  width: 100%;
+}
+.tailgrids-blogs__item--card .blogs-thumbnail img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.tailgrids-blogs__item--card .blogs-date {
+  background-color: #0C4DF4;
+  color: white;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.tailgrids-blogs__item--card .blogs-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #212B36;
+  margin-bottom: 15px;
+}
+.tailgrids-blogs__item--card .blogs-excerpt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #637381;
+}
+.tailgrids-blogs__button {
+  text-align: center;
+  margin-top: 60px;
+}
+.tailgrids-blogs__button a {
+  padding: 10px 30px;
+  text-decoration: none;
+  border: 1px solid #637381;
+  color: #637381;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.tailgrids-blogs__button a:hover {
+  background-color: #3056D3;
+  border: 1px solid #3056D3;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+  .tailgrids-blogs__text--heading {
+    font-size: 30px;
+  }
+  .tailgrids-blogs__text--caption {
+    font-size: 14px;
+  }
+  .tailgrids-blogs__item {
+    flex-wrap: wrap;
+  }
+  .tailgrids-blogs__item--card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-blogs__item--card .blogs-thumbnail img {
+    height: 250px;
+  }
+  .tailgrids-blogs__item--card .blogs-title {
+    font-size: 18px;
+  }
+  .tailgrids-blogs__item--card .blogs-excerpt {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

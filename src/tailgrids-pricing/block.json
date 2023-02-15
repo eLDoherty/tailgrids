@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/tailgrids-pricing",
+	"version": "0.1.0",
+	"title": "Tailgrids Pricing",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"heading": {
+			"type": "string"
+		},
+		"subheading": {
+			"type": "string"
+		},
+		"caption": {
+			"type": "string"
+		},
+		"products": {
+			"type": "array"
+		}
+	},
+	"textdomain": "tailgrids-pricing",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./template.php" 
+}

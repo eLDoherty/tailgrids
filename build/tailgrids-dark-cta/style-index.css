@@ -1,0 +1,107 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-dark-cta/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-dark-cta {
+  padding: 2px;
+}
+
+.tailgrids-dark-cta {
+  margin: 60px 0;
+}
+.tailgrids-dark-cta__banner {
+  background-image: url(../images/dark-cta.ab9e6db7.jpg);
+  background-size: 100% 100%;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tailgrids-dark-cta__banner--left {
+  color: white;
+  width: 45%;
+}
+.tailgrids-dark-cta__banner--left .banner-subheading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tailgrids-dark-cta__banner--left .banner-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.tailgrids-dark-cta__banner--right .black-cta-contact {
+  margin-right: 30px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.219);
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.tailgrids-dark-cta__banner--right .black-cta-contact:hover {
+  background-color: white;
+  color: #3056D3;
+}
+.tailgrids-dark-cta__banner--right .black-cta-quote {
+  text-decoration: none;
+  background-color: #3056D3;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.tailgrids-dark-cta__banner--right .black-cta-quote:hover {
+  background-color: #13C296;
+}
+
+@media (max-width: 767.98px) {
+  .tailgrids-dark-cta {
+    margin: 0;
+  }
+  .tailgrids-dark-cta__banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .tailgrids-dark-cta__banner--left, .tailgrids-dark-cta__banner--right {
+    width: 100%;
+  }
+  .tailgrids-dark-cta__banner--right {
+    margin-top: 50px;
+  }
+  .tailgrids-dark-cta__banner--right {
+    display: flex;
+    flex-direction: column;
+  }
+  .tailgrids-dark-cta__banner--right .black-cta-contact {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .tailgrids-dark-cta__banner--left .banner-heading {
+    font-size: 30px;
+  }
+  .tailgrids-dark-cta__banner--right .black-cta-contact {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .tailgrids-dark-cta__banner--right .black-cta-quote {
+    font-size: 13px;
+    display: block;
+  }
+  .tailgrids-dark-cta__banner--right .black-cta-contact {
+    margin-right: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
