@@ -25,7 +25,7 @@
   margin: 15px 0;
 }
 .tailgrids-simple-contact__text--subheading {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   color: #3056D3;
 }
@@ -36,7 +36,7 @@
 }
 .tailgrids-simple-contact__detail {
   display: flex;
-  margin-top: 50px;
+  margin-top: 52px;
   justify-content: space-evenly;
 }
 
