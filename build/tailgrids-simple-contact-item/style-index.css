@@ -37,4 +37,15 @@
   line-height: 1.6;
 }
 
+@media (max-width: 567.98px) {
+  .tailgrids-simple-contact-item {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .tailgrids-simple-contact-item {
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=style-index.css.map*/

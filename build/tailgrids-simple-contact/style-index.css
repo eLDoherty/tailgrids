@@ -38,6 +38,34 @@
   display: flex;
   margin-top: 52px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 575.98px) {
+  .tailgrids-trending__wrapper--item .trending-detail {
+    padding: 20px;
+  }
+  .tailgrids-trending .slick-arrow {
+    display: none !important;
+  }
+}
+@media (max-width: 567.98px) {
+  .tailgrids-simple-contact__detail {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tailgrids-simple-contact__text {
+    padding: 0 30px;
+  }
+  .tailgrids-simple-contact__text--heading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .tailgrids-simple-contact__text--heading {
+    font-size: 35px;
+  }
 }
 
 /*# sourceMappingURL=style-index.css.map*/
