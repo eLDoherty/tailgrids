@@ -21,11 +21,11 @@ $query = new WP_Query($args);
 
 ?>
 
-<?php if( !is_user_logged_in() ) : ?>
+<?php if( !pine_has_subscription() ) : ?>
     <section class="tailgrids-pricing">
         <div class="tailgrids-pricing__text">
             <p class="pricing-subheading"><?php echo $subheading; ?></p>
-            <h2><?php echo $heading; ?></h2>
+            <h2><?php echo $heading; ?></h2> 
             <p><?php echo $caption; ?></p>
         </div>
         <?php if( $query->have_posts() ) : $i = 0; ?>
