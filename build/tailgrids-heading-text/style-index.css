@@ -1,0 +1,37 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-heading-text/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-heading-text {
+  padding: 2px;
+  margin: 40px 0;
+}
+
+.tailgrids-heading-text__content {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+.tailgrids-heading-text__content--subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3056D3;
+}
+.tailgrids-heading-text__content--heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+  color: #3056d3;
+}
+.tailgrids-heading-text__content--caption {
+  font-size: 16px;
+  font-weight: 400;
+  color: #637381;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

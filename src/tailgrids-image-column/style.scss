@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-tailgrids-image-column {
+	padding: 2px;
+}
+
+.tailgrids-image-column {
+	margin: 60px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between; 
+		align-items: center;
+		&--text {
+			width: calc( 48% - 40px );
+			.column-text-heading {
+				font-size: 40px;
+				font-weight: 600;
+				margin-bottom: 25px;
+			}
+			.column-text-caption {
+				font-size: 16px;
+				line-height: 1.4;
+				font-weight: 400;
+				color: #637381;
+			}
+		}
+		&--image {
+			width: calc( 48% - 40px);
+			img {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+		}
+	}
+	.image-column-reverse {
+		flex-direction: row-reverse !important;
+	}
+}

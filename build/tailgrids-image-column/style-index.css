@@ -1,0 +1,49 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/tailgrids-image-column/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-tailgrids-image-column {
+  padding: 2px;
+}
+
+.tailgrids-image-column {
+  margin: 60px 0;
+}
+.tailgrids-image-column__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tailgrids-image-column__wrapper--text {
+  width: calc(48% - 40px);
+}
+.tailgrids-image-column__wrapper--text .column-text-heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.tailgrids-image-column__wrapper--text .column-text-caption {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #637381;
+}
+.tailgrids-image-column__wrapper--image {
+  width: calc(48% - 40px);
+}
+.tailgrids-image-column__wrapper--image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tailgrids-image-column .image-column-reverse {
+  flex-direction: row-reverse !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

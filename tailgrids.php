@@ -46,6 +46,8 @@ function create_block_tailgrids_block_init() {
 	register_block_type( __DIR__ . '/build/tailgrids-product-slider-item' );
 	register_block_type( __DIR__ . '/build/tailgrids-simple-contact' );
 	register_block_type( __DIR__ . '/build/tailgrids-simple-contact-item' );
+	register_block_type( __DIR__ . '/build/tailgrids-heading-text' );
+	register_block_type( __DIR__ . '/build/tailgrids-image-column' );
 }
 
 add_action( 'init', 'create_block_tailgrids_block_init' );
