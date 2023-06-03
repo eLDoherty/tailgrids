@@ -1,5 +1,5 @@
 === Tailgrids ===
-Slicer:      			 Leonardo Doherty
+Slicer:     Leonardo Doherty
 Tags:              block
 Tested up to:      6.1
 Stable tag:        0.1.0
